@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+class ConfigService {
+    static let endpoint = "https://small-project-api.herokuapp.com/"
+    static let keychain_key = "dd_theideapool"
+}

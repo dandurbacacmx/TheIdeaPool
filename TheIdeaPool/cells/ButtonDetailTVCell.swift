@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+class ButtonDetailTVCell: UITableViewCell {
+    @IBOutlet weak var button: UIButton?
+    
+    @IBAction func doAction(sender: UIButton) {
+        onAction()
+    }
+
+    var onAction: ()->Void = {}
+}

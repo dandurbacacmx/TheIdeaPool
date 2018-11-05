@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0766322CA94C3FE7743C7A06 /* Pods_TheIdeaPool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F616B054650D93120C096B2 /* Pods_TheIdeaPool.framework */; };
+		97999BA4218AF38F006001E3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BA3218AF38F006001E3 /* UserService.swift */; };
+		97999BA6218B1761006001E3 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BA5218B1761006001E3 /* AlertService.swift */; };
+		97999BA8218B4BD3006001E3 /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BA7218B4BD3006001E3 /* ConfigService.swift */; };
+		97999BAA218B56E1006001E3 /* IdeaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BA9218B56E1006001E3 /* IdeaService.swift */; };
+		97999BAD218C156A006001E3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BAC218C156A006001E3 /* LoginVC.swift */; };
+		97999BAF218C157E006001E3 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BAE218C157E006001E3 /* SignupVC.swift */; };
+		97999BB1218C15A1006001E3 /* IdeasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BB0218C15A1006001E3 /* IdeasVC.swift */; };
+		97999BB3218C15BA006001E3 /* IdeaDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BB2218C15BA006001E3 /* IdeaDetailsVC.swift */; };
+		97999BB5218C2A1C006001E3 /* NavigationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BB4218C2A1C006001E3 /* NavigationService.swift */; };
+		97999BB7218C2D73006001E3 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BB6218C2D73006001E3 /* BaseVC.swift */; };
+		97999BBA218C59A1006001E3 /* IdeaTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BB9218C59A1006001E3 /* IdeaTVCell.swift */; };
+		97999BBC218C6769006001E3 /* ContentDetailTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BBB218C6769006001E3 /* ContentDetailTVCell.swift */; };
+		97999BBE218C714B006001E3 /* ValueDetailTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BBD218C714B006001E3 /* ValueDetailTVCell.swift */; };
+		97999BC0218CB142006001E3 /* ButtonDetailTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97999BBF218CB142006001E3 /* ButtonDetailTVCell.swift */; };
 		97F38163218AE06C00D61C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F38162218AE06C00D61C8A /* AppDelegate.swift */; };
 		97F38165218AE06C00D61C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F38164218AE06C00D61C8A /* ViewController.swift */; };
 		97F38168218AE06C00D61C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F38166218AE06C00D61C8A /* Main.storyboard */; };
@@ -15,6 +30,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F616B054650D93120C096B2 /* Pods_TheIdeaPool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheIdeaPool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		159865D0AD908FFF3408B1F3 /* Pods-TheIdeaPool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheIdeaPool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheIdeaPool/Pods-TheIdeaPool.debug.xcconfig"; sourceTree = "<group>"; };
+		4E9441126FDD6316E71C05A6 /* Pods-TheIdeaPool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheIdeaPool.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheIdeaPool/Pods-TheIdeaPool.release.xcconfig"; sourceTree = "<group>"; };
+		97999BA3218AF38F006001E3 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		97999BA5218B1761006001E3 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		97999BA7218B4BD3006001E3 /* ConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
+		97999BA9218B56E1006001E3 /* IdeaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaService.swift; sourceTree = "<group>"; };
+		97999BAC218C156A006001E3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		97999BAE218C157E006001E3 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		97999BB0218C15A1006001E3 /* IdeasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeasVC.swift; sourceTree = "<group>"; };
+		97999BB2218C15BA006001E3 /* IdeaDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaDetailsVC.swift; sourceTree = "<group>"; };
+		97999BB4218C2A1C006001E3 /* NavigationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationService.swift; sourceTree = "<group>"; };
+		97999BB6218C2D73006001E3 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		97999BB9218C59A1006001E3 /* IdeaTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaTVCell.swift; sourceTree = "<group>"; };
+		97999BBB218C6769006001E3 /* ContentDetailTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailTVCell.swift; sourceTree = "<group>"; };
+		97999BBD218C714B006001E3 /* ValueDetailTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueDetailTVCell.swift; sourceTree = "<group>"; };
+		97999BBF218CB142006001E3 /* ButtonDetailTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDetailTVCell.swift; sourceTree = "<group>"; };
 		97F3815F218AE06C00D61C8A /* TheIdeaPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheIdeaPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F38162218AE06C00D61C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97F38164218AE06C00D61C8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +61,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0766322CA94C3FE7743C7A06 /* Pods_TheIdeaPool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A824229036B54002C591EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F616B054650D93120C096B2 /* Pods_TheIdeaPool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		560EF5DD35673E07B378249E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				159865D0AD908FFF3408B1F3 /* Pods-TheIdeaPool.debug.xcconfig */,
+				4E9441126FDD6316E71C05A6 /* Pods-TheIdeaPool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97999BA2218AF368006001E3 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				97999BA3218AF38F006001E3 /* UserService.swift */,
+				97999BA5218B1761006001E3 /* AlertService.swift */,
+				97999BA7218B4BD3006001E3 /* ConfigService.swift */,
+				97999BA9218B56E1006001E3 /* IdeaService.swift */,
+				97999BB4218C2A1C006001E3 /* NavigationService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		97999BAB218C1548006001E3 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				97999BAC218C156A006001E3 /* LoginVC.swift */,
+				97999BAE218C157E006001E3 /* SignupVC.swift */,
+				97999BB0218C15A1006001E3 /* IdeasVC.swift */,
+				97999BB2218C15BA006001E3 /* IdeaDetailsVC.swift */,
+				97999BB6218C2D73006001E3 /* BaseVC.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		97999BB8218C5988006001E3 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				97999BB9218C59A1006001E3 /* IdeaTVCell.swift */,
+				97999BBB218C6769006001E3 /* ContentDetailTVCell.swift */,
+				97999BBD218C714B006001E3 /* ValueDetailTVCell.swift */,
+				97999BBF218CB142006001E3 /* ButtonDetailTVCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		97F38156218AE06C00D61C8A = {
 			isa = PBXGroup;
 			children = (
 				97F38161218AE06C00D61C8A /* TheIdeaPool */,
 				97F38160218AE06C00D61C8A /* Products */,
+				560EF5DD35673E07B378249E /* Pods */,
+				3A824229036B54002C591EE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +141,9 @@
 		97F38161218AE06C00D61C8A /* TheIdeaPool */ = {
 			isa = PBXGroup;
 			children = (
+				97999BB8218C5988006001E3 /* cells */,
+				97999BAB218C1548006001E3 /* viewcontrollers */,
+				97999BA2218AF368006001E3 /* services */,
 				97F38162218AE06C00D61C8A /* AppDelegate.swift */,
 				97F38164218AE06C00D61C8A /* ViewController.swift */,
 				97F38166218AE06C00D61C8A /* Main.storyboard */,
@@ -71,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97F38171218AE06E00D61C8A /* Build configuration list for PBXNativeTarget "TheIdeaPool" */;
 			buildPhases = (
+				21F3CE2750E6F9C3FA31FEAE /* [CP] Check Pods Manifest.lock */,
 				97F3815B218AE06C00D61C8A /* Sources */,
 				97F3815C218AE06C00D61C8A /* Frameworks */,
 				97F3815D218AE06C00D61C8A /* Resources */,
+				991DD7446B40A558E07BB5D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +222,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21F3CE2750E6F9C3FA31FEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheIdeaPool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		991DD7446B40A558E07BB5D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TheIdeaPool/Pods-TheIdeaPool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheIdeaPool/Pods-TheIdeaPool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		97F3815B218AE06C00D61C8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97999BAF218C157E006001E3 /* SignupVC.swift in Sources */,
 				97F38165218AE06C00D61C8A /* ViewController.swift in Sources */,
+				97999BB3218C15BA006001E3 /* IdeaDetailsVC.swift in Sources */,
+				97999BBE218C714B006001E3 /* ValueDetailTVCell.swift in Sources */,
 				97F38163218AE06C00D61C8A /* AppDelegate.swift in Sources */,
+				97999BB1218C15A1006001E3 /* IdeasVC.swift in Sources */,
+				97999BBA218C59A1006001E3 /* IdeaTVCell.swift in Sources */,
+				97999BBC218C6769006001E3 /* ContentDetailTVCell.swift in Sources */,
+				97999BAD218C156A006001E3 /* LoginVC.swift in Sources */,
+				97999BA6218B1761006001E3 /* AlertService.swift in Sources */,
+				97999BB7218C2D73006001E3 /* BaseVC.swift in Sources */,
+				97999BB5218C2A1C006001E3 /* NavigationService.swift in Sources */,
+				97999BC0218CB142006001E3 /* ButtonDetailTVCell.swift in Sources */,
+				97999BA4218AF38F006001E3 /* UserService.swift in Sources */,
+				97999BAA218B56E1006001E3 /* IdeaService.swift in Sources */,
+				97999BA8218B4BD3006001E3 /* ConfigService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +427,7 @@
 		};
 		97F38172218AE06E00D61C8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159865D0AD908FFF3408B1F3 /* Pods-TheIdeaPool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +446,7 @@
 		};
 		97F38173218AE06E00D61C8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9441126FDD6316E71C05A6 /* Pods-TheIdeaPool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
